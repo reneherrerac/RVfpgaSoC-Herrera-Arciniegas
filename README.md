@@ -54,8 +54,17 @@ De acuerdo con la definición establecida por Richard Stallman, un software es "
 
 ### Hardware libre
 En el ámbito de hardware ya no es tan fácil definir cuando es  libre o hasta que punto, pues al ser un elemento físico, la fabricación de este  depende de muchos factores desde la materia física, la fabrica, el diseño y la parte económica.
-## Fundación RISC-V
+Una parte muy importante para el diseño de software es el set de intrucciones ISA que se va a usar para unir el software y el hardware. Existen principalmente tres tipos:
+- CISC (Complex Instruction Set Computer)
+- RISC (Reduced Instruction Set Computer)
+- SISC (Simple Instruction Set Computing)
 
+Las arquitecturas comerciales mas comunes como x86 de INTEL y ARM de ARM holdings son privativas por lo que la aparición de el set de instrucciones RIS-V en el 2010 en la universidad de Berkeley  abre el horizonte para una colaboración global para lograr un software y hardware libre y abierto y a un avance mas rápido en la generación de nuevas tegnologias.
+El proyecto de 5 años Par Lab pagado por Intel y Microsoft  y lederado por el Prof. David Pattersondonde se buscaba avances en la computacion paralela termino creando RIS-V.
+
+## Fundación RISC-V
+La Fundación RISC-V ( www.riscv.org ) nace en el año 2015 para construir una comunidad abierta y colaborativa de innovadores de software y hardware basada en RISC-V ISA. La Fundación, una corporación sin fines de lucro controlada por sus miembros, dirigió el desarrollo para impulsar la adopción inicial de RISC-V ISA.
+en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobierno de Donal Trump influyera en el acceso libre y el desarrollo de la fundacion.
 
   - patrocinadores
   - Intel invirtio en ris-v
