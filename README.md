@@ -5,11 +5,11 @@ _Daniel Arciniegas_
 _Brayan Herrera_
 
 temas a tratar:
--Que aprendí del curso
--Fundación RISC-V
--Hablar del software libre
--Beneficios del software/hardware libre 
--Conclusiones
+- Que aprendí del curso
+- Fundación RISC-V
+- Hablar del software libre
+- Beneficios del software/hardware libre 
+- Conclusiones
 En este workshop encontrará la descripción de dos programas uno en assembly y otro en c, cada uno con su descripción, diagrama de flujo, y capturas de GTKwave donde podrá visualizar el correcto funcionamiento del programa.
 ## Calcular los divisores en RISC-V Assembly
 El programa en assembly realiza el cálculo de los divisores de un número ingresado previamente, este procedimiento lo completa a través de restas sucesivas, . Utiliza un contador que va desde 1 hasta el número ingresado para ir comprobando uno a uno cual de los números es divisor, el número que cumple los requisitos se muestra en el registro de salida s1 temporalmente hasta que aparezca el siguiente divisor. En la simulación de gtkwave se podrá observar el historial de los numeros que cumplen y son los divisores.
