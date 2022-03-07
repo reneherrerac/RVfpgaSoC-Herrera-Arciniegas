@@ -4,21 +4,36 @@ _Daniel Arciniegas_
 
 _Brayan Herrera_
 
+- resumen
+En este proyecto encontrara la implementacion de
+Lab 1: Introduction to RVfpga-SoC
+Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empresa imagination.
+
 temas a tratar:
-- Introducción y descripcion del curso RVfpgaSoC
+- Introducción
+  - Software libre
+    beneficios del software libre
+    importancia
+  - Fundación RISC-V
+    - quienes son?
+    - patrocinadores
+    - Intel invirtio en ris-v
+  - Hardware libre ?
 
-en este proyecto encontrara la implementacion de los lab ● Lab 1: Introduction to RVfpga-SoC
-● Lab 2: Running Software on RVfpga-SoC del del curso RVfpgaSoC ofrecido por la empresa imagination.
+- descripcion del curso RVfpgaSoC
+  - resumen del curso
+  - empresas patrocinadoras
 
-- Lab1 descripcion general
-- resultados lab1
-- lab2 descripcion general
-- resultados lab2
-- Que aprendí del curso
-- Fundación RISC-V
-- Hablar del software libre
-- Beneficios del software/hardware libre
+  - Lab1 descripcion general
+    - resultados lab1
+
+  - lab2 descripcion general
+    - resultados lab2
+
 - Conclusiones
+  - importancia del curso
+  - Que aprendí del curso
+
 En este workshop encontrará la descripción de dos programas uno en assembly y otro en c, cada uno con su descripción, diagrama de flujo, y capturas de GTKwave donde podrá visualizar el correcto funcionamiento del programa.
 ## Calcular los divisores en RISC-V Assembly
 El programa en assembly realiza el cálculo de los divisores de un número ingresado previamente, este procedimiento lo completa a través de restas sucesivas, . Utiliza un contador que va desde 1 hasta el número ingresado para ir comprobando uno a uno cual de los números es divisor, el número que cumple los requisitos se muestra en el registro de salida s1 temporalmente hasta que aparezca el siguiente divisor. En la simulación de gtkwave se podrá observar el historial de los numeros que cumplen y son los divisores.
