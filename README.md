@@ -5,6 +5,11 @@ _Daniel Arciniegas_
 _Brayan Herrera_
 
 temas a tratar:
+- Introducción y descripcion del curso RVfpgaSoC
+- Lab1 descripcion general
+- resultados lab1
+- lab2 descripcion general
+- resultados lab2
 - Que aprendí del curso
 - Fundación RISC-V
 - Hablar del software libre
