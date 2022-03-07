@@ -4,19 +4,53 @@ _Daniel Arciniegas_
 
 _Brayan Herrera_
 
-- resumen
+## resumen
+
 En este proyecto encontrara la implementacion de
 Lab 1: Introduction to RVfpga-SoC
 Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empresa imagination.
 
 temas a tratar:
 - Introducción
+- Software libre
+  beneficios del software libre
+  importancia
+- Fundación RISC-V
+  - quienes son?
+  - patrocinadores
+  - Intel invirtio en ris-v
+- Hardware libre ?
 
-Para la epoca de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto de el el sofware libre, al punto que  revoluciono el mundo como lo vemos
-  - Software libre
-    beneficios del software libre
+- descripcion del curso RVfpgaSoC
+- resumen del curso
+- empresas patrocinadoras
+
+- Lab1 descripcion general
+  - resultados lab1
+
+- lab2 descripcion general
+  - resultados lab2
+
+- Conclusiones
+- importancia del curso
+- Que aprendí del curso
+
+-  Referencias
+
+
+## Introducion
+Para la epoca de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto de el el sofware libre, al punto que hoy en dia, mas del 90% de las supercomputadoras del mundo corren sobre un nucleo linux, el cual tiene una licencia   [{1}](https://www.compuhoy.com/cuantos-servidores-usan-linux/).  
+### Software libre
+Hoy se distribuye software bajo diferentes licencias siendo la mas comunes,MIT, GPL y APACHE.
+De acuerdo con la definición establecida por Richard Stallman, un software es "libre" cuando garantiza las siguientes libertades:
+- la libertad de usar el programa, con cualquier propósito (uso).
+- la libertad de estudiar cómo funciona el programa y modificarlo, adaptándolo a las propias necesidades (estudio).
+-la libertad de distribuir copias del programa, con lo cual se puede ayudar a otros usuarios (distribución).
+- la libertad de mejorar el programa y hacer públicas esas mejoras a los demás, de modo que toda la comunidad se beneficie (mejora).
+
+## beneficios del software libre
     importancia
-  - Fundación RISC-V
+## Fundación RISC-V
     - quienes son?
     - patrocinadores
     - Intel invirtio en ris-v
@@ -35,6 +69,12 @@ Para la epoca de los 80, Richard Matthew Stallman no imaginaba que revolucionari
 - Conclusiones
   - importancia del curso
   - Que aprendí del curso
+
+-  Referencias
+
+## Referencias
+
+  - {1} RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
 
 En este workshop encontrará la descripción de dos programas uno en assembly y otro en c, cada uno con su descripción, diagrama de flujo, y capturas de GTKwave donde podrá visualizar el correcto funcionamiento del programa.
 ## Calcular los divisores en RISC-V Assembly
