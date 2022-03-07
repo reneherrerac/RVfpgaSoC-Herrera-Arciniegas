@@ -11,6 +11,7 @@ Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empre
 
 temas a tratar:
 - Introducción
+el sofware libre revolucioo el mundo como lo vemos
   - Software libre
     beneficios del software libre
     importancia
