@@ -11,7 +11,8 @@ Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empre
 
 temas a tratar:
 - Introducción
-el sofware libre revolucioo el mundo como lo vemos
+
+Para la epoca de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto de el el sofware libre, al punto que  revoluciono el mundo como lo vemos
   - Software libre
     beneficios del software libre
     importancia
