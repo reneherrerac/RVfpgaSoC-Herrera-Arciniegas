@@ -7,7 +7,8 @@ _Brayan Herrera_
 temas a tratar:
 - Introducción y descripcion del curso RVfpgaSoC
 
-en este proyecto encontrara la implementacion de los lab 1 y 2 del del curso RVfpgaSoC ofrecido por la empresa imagination.
+en este proyecto encontrara la implementacion de los lab ● Lab 1: Introduction to RVfpga-SoC
+● Lab 2: Running Software on RVfpga-SoC del del curso RVfpgaSoC ofrecido por la empresa imagination.
 
 - Lab1 descripcion general
 - resultados lab1
