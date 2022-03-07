@@ -6,6 +6,9 @@ _Brayan Herrera_
 
 temas a tratar:
 - Introducción y descripcion del curso RVfpgaSoC
+
+en este proyecto encontrara la implementacion de los lab 1 y 2 del del curso RVfpgaSoC ofrecido por la empresa imagination.
+
 - Lab1 descripcion general
 - resultados lab1
 - lab2 descripcion general
@@ -13,7 +16,7 @@ temas a tratar:
 - Que aprendí del curso
 - Fundación RISC-V
 - Hablar del software libre
-- Beneficios del software/hardware libre 
+- Beneficios del software/hardware libre
 - Conclusiones
 En este workshop encontrará la descripción de dos programas uno en assembly y otro en c, cada uno con su descripción, diagrama de flujo, y capturas de GTKwave donde podrá visualizar el correcto funcionamiento del programa.
 ## Calcular los divisores en RISC-V Assembly
