@@ -70,9 +70,9 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
   - Intel invirtio en ris-v
   - Hardware libre ?
 
-- descripcion del curso RVfpgaSoC
-  - resumen del curso
-  - empresas patrocinadoras
+- Descripcion del curso RVfpgaSoC
+  - Resumen del curso
+  - Empresas patrocinadoras
 
   - Lab1 descripcion general
     - resultados lab1
@@ -81,7 +81,7 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
     - resultados lab2
 
 - Conclusiones
-  - importancia del curso
+  - Importancia del curso
   - Que aprendí del curso
 
 -  Referencias
