@@ -108,6 +108,10 @@ REPEAT:
 ```
 ![gtk20.jpeg](https://www.dropbox.com/s/xoz0jecglj20ju1/gtk20.jpeg?dl=0&raw=1)
 En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y en el registro t3 a la salida el cambio esperado
+## Inconvenientes al realizar el curso (Lab1 y Lab2)
+- No se podia completar la instalación del verilator en windows, dado que la versión que sugerían en la guia de instalción no se encontraba actualizada y generaba errores. por lo tanto se remmplazó por la verión que proponian para la inatalción en linux.
+- Al tratar de generar el simulador _step3/lab2_ se generaba un error por la falta de unas librerías. Se solucionó agregando las librerías _#include <limits>, #include <cstddef>, #include <iostream>_ en el archivo _verilator.cpp_ 
+- En windows no se generaba el trace.vcd para ver la simulación en GTKWAVE aún cuando el proceso había sido completado, no sé encontró una solución efectiva por lo que se tuvo que realizar este paso en linux para copletarlo.
 ## Conclusiones
   - Este tipo de cursos libres permiten al publico poder conocer lo que tienen para ofrecer las empresas. 
   - Permite fomentar el interés del publico en esta rama de la ingeniería. 
