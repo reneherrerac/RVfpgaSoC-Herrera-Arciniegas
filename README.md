@@ -7,7 +7,7 @@ _Brayan Herrera_
 ## Resumen
 
 En este proyecto encontrara la implementación de
-Lab 1: Introduction to RVfpga-SoC
+Lab 1: _Introduction to RVfpga-SoC_
 Lab 2: _Running Software on RVfpga-SoC_  del curso RVfpgaSoC ofrecido por la empresa Imagination.
 
 Contenido:
