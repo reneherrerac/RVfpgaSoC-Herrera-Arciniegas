@@ -28,7 +28,9 @@ Contenido:
 
 
 ## Introducción
-Para la época de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto del software libre, al punto que hoy en día, mas del 90% de las supercomputadoras del mundo corren sobre un núcleo linux, el cual tiene una licencia GPL.  [1]  
+Las computadoras son hoy en dia una herramienta indispensable para la humanidad, desde su invencion han permitido avances en todas las areas de las ciencias a una velocidad sin precedentes.
+La velocidad de un procesador se duplica cada dos años sin aumentar su precio al usuario final, a su vez cada dia hay mas software pero no al alcance de todos , pues muchas veces es de caracter privativo. 
+las economias mas grandes hoy en dia son las que exportan tegnologia ,  hace pensar en la importancia de el acceso  libre a software y a hardware para todo el mundo que permita el avance de la humanidad hacia una sociedad mas equitativa y que estos avances no queden en manos de unos pocos. lo mismo pensaba  Para la época de los 80, Richard Matthew Stallman, quien revoluciono el mundo   con el concepto del software libre, al punto que hoy en día, mas del 90% de las supercomputadoras del mundo corren sobre un núcleo linux, el cual tiene una licencia  de software libre GPL. [1] 
 ## Software libre
 Hoy en día se distribuye software bajo diferentes licencias siendo la mas comunes, MIT, GPL y APACHE.
 De acuerdo con la definición establecida por Richard Stallman, un software es "libre" cuando garantiza las siguientes libertades:
