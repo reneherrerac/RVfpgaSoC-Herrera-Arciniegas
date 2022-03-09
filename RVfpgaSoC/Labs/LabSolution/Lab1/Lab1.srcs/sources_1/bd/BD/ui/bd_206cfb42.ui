@@ -1,0 +1,436 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.104094",
+   "Default View_TopLeft":"-1720,-836",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -lvl 0 -x -20 -y 910 -defaultsOSRD
+preplace port rst_0 -pg 1 -lvl 0 -x -20 -y 940 -defaultsOSRD
+preplace port dmi_hard_reset_0 -pg 1 -lvl 0 -x -20 -y 1140 -defaultsOSRD
+preplace port dmi_reg_wr_en_0 -pg 1 -lvl 0 -x -20 -y 1080 -defaultsOSRD
+preplace port dmi_reg_en_0 -pg 1 -lvl 0 -x -20 -y 1020 -defaultsOSRD
+preplace port i_ram_arready_0 -pg 1 -lvl 0 -x -20 -y 2230 -defaultsOSRD
+preplace port i_ram_awready_0 -pg 1 -lvl 0 -x -20 -y 2200 -defaultsOSRD
+preplace port i_ram_wready_0 -pg 1 -lvl 0 -x -20 -y 2050 -defaultsOSRD
+preplace port i_ram_bvalid_0 -pg 1 -lvl 0 -x -20 -y 2170 -defaultsOSRD
+preplace port i_ram_rlast_0 -pg 1 -lvl 0 -x -20 -y 2080 -defaultsOSRD
+preplace port i_ram_rvalid_0 -pg 1 -lvl 0 -x -20 -y 1600 -defaultsOSRD
+preplace port o_ram_arvalid_0 -pg 1 -lvl 7 -x 6530 -y 1580 -defaultsOSRD
+preplace port o_ram_awvalid_0 -pg 1 -lvl 7 -x 6530 -y 1670 -defaultsOSRD
+preplace port o_ram_wlast_0 -pg 1 -lvl 7 -x 6530 -y 1340 -defaultsOSRD
+preplace port o_ram_arlock_0 -pg 1 -lvl 7 -x 6530 -y 2060 -defaultsOSRD
+preplace port o_ram_awlock_0 -pg 1 -lvl 7 -x 6530 -y 1310 -defaultsOSRD
+preplace port o_ram_wvalid_0 -pg 1 -lvl 7 -x 6530 -y 1730 -defaultsOSRD
+preplace port o_ram_bready_0 -pg 1 -lvl 7 -x 6530 -y 1700 -defaultsOSRD
+preplace port o_ram_rready_0 -pg 1 -lvl 7 -x 6530 -y 1080 -defaultsOSRD
+preplace port i_ram_init_error_0 -pg 1 -lvl 0 -x -20 -y 2340 -defaultsOSRD
+preplace port i_ram_init_done_0 -pg 1 -lvl 0 -x -20 -y 1360 -defaultsOSRD
+preplace port bidir_0 -pg 1 -lvl 7 -x 6530 -y 940 -defaultsOSRD
+preplace port bidir_1 -pg 1 -lvl 7 -x 6530 -y 700 -defaultsOSRD
+preplace port bidir_2 -pg 1 -lvl 7 -x 6530 -y -240 -defaultsOSRD
+preplace port bidir_3 -pg 1 -lvl 7 -x 6530 -y -30 -defaultsOSRD
+preplace port bidir_4 -pg 1 -lvl 7 -x 6530 -y 820 -defaultsOSRD
+preplace port bidir_5 -pg 1 -lvl 7 -x 6530 -y 390 -defaultsOSRD
+preplace port bidir_6 -pg 1 -lvl 7 -x 6530 -y 90 -defaultsOSRD
+preplace port bidir_7 -pg 1 -lvl 7 -x 6530 -y 150 -defaultsOSRD
+preplace port bidir_8 -pg 1 -lvl 7 -x 6530 -y 520 -defaultsOSRD
+preplace port bidir_9 -pg 1 -lvl 7 -x 6530 -y 270 -defaultsOSRD
+preplace port bidir_10 -pg 1 -lvl 7 -x 6530 -y -270 -defaultsOSRD
+preplace port bidir_11 -pg 1 -lvl 7 -x 6530 -y -210 -defaultsOSRD
+preplace port bidir_12 -pg 1 -lvl 7 -x 6530 -y 1120 -defaultsOSRD
+preplace port bidir_13 -pg 1 -lvl 7 -x 6530 -y 880 -defaultsOSRD
+preplace port bidir_14 -pg 1 -lvl 7 -x 6530 -y 970 -defaultsOSRD
+preplace port bidir_15 -pg 1 -lvl 7 -x 6530 -y -130 -defaultsOSRD
+preplace port bidir_16 -pg 1 -lvl 7 -x 6530 -y -300 -defaultsOSRD
+preplace port bidir_17 -pg 1 -lvl 7 -x 6530 -y -180 -defaultsOSRD
+preplace port bidir_18 -pg 1 -lvl 7 -x 6530 -y -60 -defaultsOSRD
+preplace port bidir_19 -pg 1 -lvl 7 -x 6530 -y 60 -defaultsOSRD
+preplace port bidir_20 -pg 1 -lvl 7 -x 6530 -y -390 -defaultsOSRD
+preplace port bidir_21 -pg 1 -lvl 7 -x 6530 -y -330 -defaultsOSRD
+preplace port bidir_22 -pg 1 -lvl 7 -x 6530 -y -360 -defaultsOSRD
+preplace port bidir_23 -pg 1 -lvl 7 -x 6530 -y 180 -defaultsOSRD
+preplace port bidir_24 -pg 1 -lvl 7 -x 6530 -y 310 -defaultsOSRD
+preplace port bidir_25 -pg 1 -lvl 7 -x 6530 -y 430 -defaultsOSRD
+preplace port bidir_26 -pg 1 -lvl 7 -x 6530 -y 550 -defaultsOSRD
+preplace port bidir_27 -pg 1 -lvl 7 -x 6530 -y 670 -defaultsOSRD
+preplace port bidir_28 -pg 1 -lvl 7 -x 6530 -y 790 -defaultsOSRD
+preplace port bidir_29 -pg 1 -lvl 7 -x 6530 -y 910 -defaultsOSRD
+preplace port bidir_30 -pg 1 -lvl 7 -x 6530 -y 1030 -defaultsOSRD
+preplace port bidir_31 -pg 1 -lvl 7 -x 6530 -y 1150 -defaultsOSRD
+preplace portBus dmi_reg_wdata_0 -pg 1 -lvl 0 -x -20 -y 1110 -defaultsOSRD
+preplace portBus dmi_reg_addr_0 -pg 1 -lvl 0 -x -20 -y 1050 -defaultsOSRD
+preplace portBus dmi_reg_rdata_0 -pg 1 -lvl 7 -x 6530 -y 2000 -defaultsOSRD
+preplace portBus i_ram_rdata_0 -pg 1 -lvl 0 -x -20 -y 2110 -defaultsOSRD
+preplace portBus i_ram_rresp_0 -pg 1 -lvl 0 -x -20 -y 2140 -defaultsOSRD
+preplace portBus i_ram_bid_0 -pg 1 -lvl 0 -x -20 -y 2020 -defaultsOSRD
+preplace portBus i_ram_rid_0 -pg 1 -lvl 0 -x -20 -y 1520 -defaultsOSRD
+preplace portBus i_ram_bresp_0 -pg 1 -lvl 0 -x -20 -y 1480 -defaultsOSRD
+preplace portBus o_ram_awqos_0 -pg 1 -lvl 7 -x 6530 -y 1610 -defaultsOSRD
+preplace portBus o_ram_arcache_0 -pg 1 -lvl 7 -x 6530 -y 1250 -defaultsOSRD
+preplace portBus o_ram_arprot_0 -pg 1 -lvl 7 -x 6530 -y 2090 -defaultsOSRD
+preplace portBus o_ram_awcache_0 -pg 1 -lvl 7 -x 6530 -y 1640 -defaultsOSRD
+preplace portBus o_ram_wdata_0 -pg 1 -lvl 7 -x 6530 -y 1490 -defaultsOSRD
+preplace portBus o_ram_awprot_0 -pg 1 -lvl 7 -x 6530 -y 1520 -defaultsOSRD
+preplace portBus o_ram_arid_0 -pg 1 -lvl 7 -x 6530 -y 1370 -defaultsOSRD
+preplace portBus o_ram_wstrb_0 -pg 1 -lvl 7 -x 6530 -y 1550 -defaultsOSRD
+preplace portBus o_ram_araddr_0 -pg 1 -lvl 7 -x 6530 -y 1220 -defaultsOSRD
+preplace portBus o_ram_awid_0 -pg 1 -lvl 7 -x 6530 -y 1940 -defaultsOSRD
+preplace portBus o_ram_awaddr_0 -pg 1 -lvl 7 -x 6530 -y 1910 -defaultsOSRD
+preplace portBus o_ram_arburst_0 -pg 1 -lvl 7 -x 6530 -y 1970 -defaultsOSRD
+preplace portBus o_ram_awburst_0 -pg 1 -lvl 7 -x 6530 -y 1820 -defaultsOSRD
+preplace portBus o_ram_arlen_0 -pg 1 -lvl 7 -x 6530 -y 2030 -defaultsOSRD
+preplace portBus o_ram_arsize_0 -pg 1 -lvl 7 -x 6530 -y 850 -defaultsOSRD
+preplace portBus o_ram_awlen_0 -pg 1 -lvl 7 -x 6530 -y 1850 -defaultsOSRD
+preplace portBus o_ram_awsize_0 -pg 1 -lvl 7 -x 6530 -y 600 -defaultsOSRD
+preplace portBus o_ram_arregion_0 -pg 1 -lvl 7 -x 6530 -y 2120 -defaultsOSRD
+preplace portBus o_ram_arqos_0 -pg 1 -lvl 7 -x 6530 -y 1000 -defaultsOSRD
+preplace portBus o_ram_awregion_0 -pg 1 -lvl 7 -x 6530 -y 730 -defaultsOSRD
+preplace portBus Digits_Bits_0 -pg 1 -lvl 7 -x 6530 -y 1460 -defaultsOSRD
+preplace portBus AN_0 -pg 1 -lvl 7 -x 6530 -y 1430 -defaultsOSRD
+preplace inst intcon_wrapper_bd_0 -pg 1 -lvl 2 -x 1530 -y 1140 -defaultsOSRD
+preplace inst gpio_wrapper_0 -pg 1 -lvl 3 -x 2770 -y 500 -defaultsOSRD
+preplace inst syscon_wrapper_0 -pg 1 -lvl 3 -x 2770 -y 1390 -defaultsOSRD
+preplace inst bootrom_wrapper_0 -pg 1 -lvl 3 -x 2770 -y 1800 -defaultsOSRD
+preplace inst bidirec_0 -pg 1 -lvl 6 -x 4920 -y 910 -defaultsOSRD
+preplace inst bidirec_1 -pg 1 -lvl 6 -x 4920 -y 660 -defaultsOSRD
+preplace inst bidirec_2 -pg 1 -lvl 6 -x 4920 -y -210 -defaultsOSRD
+preplace inst bidirec_3 -pg 1 -lvl 6 -x 4920 -y -60 -defaultsOSRD
+preplace inst bidirec_4 -pg 1 -lvl 6 -x 4920 -y 780 -defaultsOSRD
+preplace inst bidirec_5 -pg 1 -lvl 6 -x 4920 -y 420 -defaultsOSRD
+preplace inst bidirec_6 -pg 1 -lvl 6 -x 4920 -y 60 -defaultsOSRD
+preplace inst bidirec_7 -pg 1 -lvl 6 -x 4920 -y 180 -defaultsOSRD
+preplace inst bidirec_8 -pg 1 -lvl 6 -x 4920 -y 540 -defaultsOSRD
+preplace inst bidirec_9 -pg 1 -lvl 6 -x 4920 -y 300 -defaultsOSRD
+preplace inst bidirec_10 -pg 1 -lvl 5 -x 4340 -y 530 -defaultsOSRD
+preplace inst bidirec_11 -pg 1 -lvl 5 -x 4340 -y 650 -defaultsOSRD
+preplace inst bidirec_12 -pg 1 -lvl 5 -x 4340 -y 1130 -defaultsOSRD
+preplace inst bidirec_13 -pg 1 -lvl 5 -x 4340 -y 1010 -defaultsOSRD
+preplace inst bidirec_14 -pg 1 -lvl 5 -x 4340 -y 890 -defaultsOSRD
+preplace inst bidirec_15 -pg 1 -lvl 5 -x 4340 -y 770 -defaultsOSRD
+preplace inst bidirec_16 -pg 1 -lvl 4 -x 3750 -y -200 -defaultsOSRD
+preplace inst bidirec_17 -pg 1 -lvl 5 -x 4340 -y -190 -defaultsOSRD
+preplace inst bidirec_18 -pg 1 -lvl 5 -x 4340 -y -70 -defaultsOSRD
+preplace inst bidirec_19 -pg 1 -lvl 5 -x 4340 -y 50 -defaultsOSRD
+preplace inst bidirec_20 -pg 1 -lvl 5 -x 4340 -y 170 -defaultsOSRD
+preplace inst bidirec_21 -pg 1 -lvl 5 -x 4340 -y 290 -defaultsOSRD
+preplace inst bidirec_22 -pg 1 -lvl 5 -x 4340 -y 410 -defaultsOSRD
+preplace inst bidirec_23 -pg 1 -lvl 4 -x 3750 -y 170 -defaultsOSRD
+preplace inst bidirec_24 -pg 1 -lvl 4 -x 3750 -y 300 -defaultsOSRD
+preplace inst bidirec_25 -pg 1 -lvl 4 -x 3750 -y 420 -defaultsOSRD
+preplace inst bidirec_26 -pg 1 -lvl 4 -x 3750 -y 540 -defaultsOSRD
+preplace inst bidirec_27 -pg 1 -lvl 4 -x 3750 -y 660 -defaultsOSRD
+preplace inst bidirec_28 -pg 1 -lvl 4 -x 3750 -y 780 -defaultsOSRD
+preplace inst bidirec_29 -pg 1 -lvl 4 -x 3750 -y 900 -defaultsOSRD
+preplace inst bidirec_30 -pg 1 -lvl 4 -x 3750 -y 1020 -defaultsOSRD
+preplace inst bidirec_31 -pg 1 -lvl 4 -x 3750 -y 1140 -defaultsOSRD
+preplace inst swerv_wrapper_verilog_0 -pg 1 -lvl 1 -x 270 -y 1010 -defaultsOSRD
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arid 1 1 1 690 40n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_araddr 1 1 1 680 60n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arlen 1 1 1 670 80n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arsize 1 1 1 660 100n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arburst 1 1 1 650 120n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arlock 1 1 1 640 140n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arcache 1 1 1 630 160n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arprot 1 1 1 620 180n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arregion 1 1 1 610 200n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arqos 1 1 1 600 220n
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_arvalid 1 1 1 590 240n
+preplace netloc intcon_wrapper_bd_0_o_ifu_arready 1 1 2 490J 10 1740
+preplace netloc intcon_wrapper_bd_0_o_ifu_rid 1 1 2 470 -10 1760
+preplace netloc intcon_wrapper_bd_0_o_ifu_rdata 1 1 2 510 0 1750
+preplace netloc intcon_wrapper_bd_0_o_ifu_rresp 1 1 2 460 -30 1800
+preplace netloc intcon_wrapper_bd_0_o_ifu_rlast 1 1 2 500 -20 1770
+preplace netloc intcon_wrapper_bd_0_o_ifu_rvalid 1 1 2 480 -60 1810
+preplace netloc swerv_wrapper_verilog_0_ifu_axi_rready 1 1 1 490 350n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awid 1 1 1 500 370n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awaddr 1 1 1 510 390n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awlen 1 1 1 530 410n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awsize 1 1 1 540 430n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awburst 1 1 1 590 450n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awlock 1 1 1 600 470n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awcache 1 1 1 610 490n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awprot 1 1 1 620 510n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awregion 1 1 1 630 530n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awqos 1 1 1 640 550n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_awvalid 1 1 1 650 570n
+preplace netloc intcon_wrapper_bd_0_o_lsu_awready 1 1 2 520 -70 1820
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wdata 1 1 1 660 590n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wstrb 1 1 1 670 610n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wlast 1 1 1 680 630n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_wvalid 1 1 1 690 650n
+preplace netloc intcon_wrapper_bd_0_o_lsu_wready 1 1 2 580 -80 1830
+preplace netloc intcon_wrapper_bd_0_o_lsu_bid 1 1 2 570 -90 1840
+preplace netloc intcon_wrapper_bd_0_o_lsu_bresp 1 1 2 560 -100 1860
+preplace netloc intcon_wrapper_bd_0_o_lsu_bvalid 1 1 2 550 -110 1890
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_bready 1 1 1 810 820n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arid 1 1 1 700 670n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_araddr 1 1 1 710 690n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arlen 1 1 1 720 710n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arsize 1 1 1 730 730n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arburst 1 1 1 740 750n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arlock 1 1 1 750 770n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arcache 1 1 1 760 790n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arprot 1 1 1 770 810n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arregion 1 1 1 780 830n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arqos 1 1 1 790 850n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_arvalid 1 1 1 800 870n
+preplace netloc swerv_wrapper_verilog_0_lsu_axi_rready 1 1 1 810 910n
+preplace netloc intcon_wrapper_bd_0_o_lsu_arready 1 1 2 860 2280 1820
+preplace netloc intcon_wrapper_bd_0_o_lsu_rid 1 1 2 830 2300 1830
+preplace netloc intcon_wrapper_bd_0_o_lsu_rdata 1 1 2 820 2290 1810
+preplace netloc intcon_wrapper_bd_0_o_lsu_rresp 1 1 2 800 2370 1890
+preplace netloc intcon_wrapper_bd_0_o_lsu_rlast 1 1 2 790 2360 1860
+preplace netloc intcon_wrapper_bd_0_o_lsu_rvalid 1 1 2 700 2380 1870
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awid 1 1 1 840 930n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awaddr 1 1 1 850 950n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awlen 1 1 1 870 970n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awsize 1 1 1 880 990n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awburst 1 1 1 890 1010n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awlock 1 1 1 900 1030n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awcache 1 1 1 910 1050n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awprot 1 1 1 920 1070n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awregion 1 1 1 930 1090n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awqos 1 1 1 940 1110n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_awvalid 1 1 1 950 1130n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_wdata 1 1 1 960 1150n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_wstrb 1 1 1 970 1170n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_wlast 1 1 1 980 1190n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_wvalid 1 1 1 990 1210n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_bready 1 1 1 1000 1230n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arid 1 1 1 1010 1250n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_araddr 1 1 1 1020 1270n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arlen 1 1 1 1030 1290n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arsize 1 1 1 1040 1310n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arburst 1 1 1 1050 1330n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arlock 1 1 1 1060 1350n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arcache 1 1 1 1070 1370n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arprot 1 1 1 1080 1390n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arregion 1 1 1 1090 1410n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arqos 1 1 1 1100 1430n
+preplace netloc swerv_wrapper_verilog_0_sb_axi_arvalid 1 1 1 1110 1450n
+preplace netloc intcon_wrapper_bd_0_o_sb_awready 1 1 2 810 2320 1800
+preplace netloc intcon_wrapper_bd_0_o_sb_wready 1 1 2 550 2420 1880
+preplace netloc intcon_wrapper_bd_0_o_sb_bid 1 1 2 750 2330 1760
+preplace netloc intcon_wrapper_bd_0_o_sb_bresp 1 1 2 640 2340 1750
+preplace netloc intcon_wrapper_bd_0_o_sb_bvalid 1 1 2 600 2350 1740
+preplace netloc intcon_wrapper_bd_0_o_sb_arready 1 1 2 720 2310 1770
+preplace netloc intcon_wrapper_bd_0_o_sb_rid 1 1 2 500 2450 1850
+preplace netloc intcon_wrapper_bd_0_o_sb_rdata 1 1 2 490 2440 1840
+preplace netloc intcon_wrapper_bd_0_o_sb_rresp 1 1 2 520 2400 1790
+preplace netloc intcon_wrapper_bd_0_o_sb_rlast 1 1 2 510 2390 1730
+preplace netloc intcon_wrapper_bd_0_o_sb_rvalid 1 1 2 480 2410 1780
+preplace netloc swerv_wrapper_verilog_0_sb_axi_rready 1 1 1 1120 1470n
+preplace netloc clk_0_1 1 0 3 80 -50 710 -50 2310
+preplace netloc rst_0_1 1 0 3 70 -40 700 -40 2280
+preplace netloc dmi_hard_reset_0_1 1 0 1 20J 1100n
+preplace netloc dmi_reg_wr_en_0_1 1 0 1 0J 1060n
+preplace netloc dmi_reg_wdata_0_1 1 0 1 10J 1080n
+preplace netloc dmi_reg_addr_0_1 1 0 1 0J 1040n
+preplace netloc dmi_reg_en_0_1 1 0 1 NJ 1020
+preplace netloc swerv_wrapper_verilog_0_dmi_reg_rdata 1 1 6 470J 2430 2610J 2000 NJ 2000 N 2000 N 2000 N
+preplace netloc i_ram_arready_0_1 1 0 2 10J 2150 1170J
+preplace netloc i_ram_awready_0_1 1 0 2 40J 2160 1160J
+preplace netloc i_ram_wready_0_1 1 0 2 0J 2100 1150J
+preplace netloc i_ram_rdata_0_1 1 0 2 NJ 2110 1200J
+preplace netloc i_ram_rresp_0_1 1 0 2 NJ 2140 1230J
+preplace netloc i_ram_bid_0_1 1 0 2 40J 2060 1130J
+preplace netloc i_ram_bvalid_0_1 1 0 2 NJ 2170 1220J
+preplace netloc i_ram_rlast_0_1 1 0 2 NJ 2080 1180J
+preplace netloc i_ram_rid_0_1 1 0 2 10J 2120 1190J
+preplace netloc i_ram_bresp_0_1 1 0 2 50J 2070 1140J
+preplace netloc i_ram_rvalid_0_1 1 0 2 20J 2090 1210J
+preplace netloc intcon_wrapper_bd_0_o_ram_awqos 1 2 5 1990J -360 2980J -550 N -550 N -550 5230
+preplace netloc intcon_wrapper_bd_0_o_ram_arcache 1 2 5 2440J 1560 3240J 1530 N 1530 N 1530 5200
+preplace netloc intcon_wrapper_bd_0_o_ram_arvalid 1 2 5 2270J 1580 3360J 1600 N 1600 N 1600 5410
+preplace netloc intcon_wrapper_bd_0_o_ram_arprot 1 2 5 2150J 2030 NJ 2030 N 2030 N 2030 5070
+preplace netloc intcon_wrapper_bd_0_o_ram_awvalid 1 2 5 2010J -300 2960J -590 N -590 N -590 5250
+preplace netloc intcon_wrapper_bd_0_o_ram_awcache 1 2 5 1950J -370 NJ -370 3960 -350 N -350 5180
+preplace netloc intcon_wrapper_bd_0_o_ram_wdata 1 2 5 2250J 1590 NJ 1590 N 1590 N 1590 5390
+preplace netloc intcon_wrapper_bd_0_o_ram_awprot 1 2 5 1940J -410 2940J -580 N -580 N -580 5270
+preplace netloc intcon_wrapper_bd_0_o_ram_arid 1 2 5 2020J -280 2970J -600 N -600 N -600 5310
+preplace netloc intcon_wrapper_bd_0_o_ram_wstrb 1 2 5 2220J 1640 NJ 1640 N 1640 N 1640 5020
+preplace netloc intcon_wrapper_bd_0_o_ram_wlast 1 2 5 2230J 1600 3300J 1560 N 1560 N 1560 5220
+preplace netloc intcon_wrapper_bd_0_o_ram_arlock 1 2 5 2160J 2020 NJ 2020 N 2020 N 2020 5200
+preplace netloc intcon_wrapper_bd_0_o_ram_araddr 1 2 5 2330J 1610 3570J 1520 N 1520 4820 1220 N
+preplace netloc intcon_wrapper_bd_0_o_ram_awid 1 2 5 1900J -440 NJ -440 4180 -410 N -410 5160
+preplace netloc intcon_wrapper_bd_0_o_ram_awaddr 1 2 5 1930J -380 NJ -380 3970 -320 N -320 5100
+preplace netloc intcon_wrapper_bd_0_o_ram_awlock 1 2 5 1920J -460 2920J -800 N -800 N -800 5350
+preplace netloc intcon_wrapper_bd_0_o_ram_wvalid 1 2 5 2190J 1650 NJ 1650 N 1650 N 1650 5020
+preplace netloc intcon_wrapper_bd_0_o_ram_bready 1 2 5 2170J 1660 NJ 1660 N 1660 N 1660 5010
+preplace netloc intcon_wrapper_bd_0_o_ram_arburst 1 2 5 2200J 1990 NJ 1990 4140 1970 N 1970 N
+preplace netloc intcon_wrapper_bd_0_o_ram_awburst 1 2 5 1960J -320 NJ -320 3930 -310 N -310 5120
+preplace netloc intcon_wrapper_bd_0_o_ram_arlen 1 2 5 2210J 2010 NJ 2010 N 2010 N 2010 5340
+preplace netloc intcon_wrapper_bd_0_o_ram_arsize 1 2 5 1980J -400 3030J -410 4150 -380 N -380 5200
+preplace netloc intcon_wrapper_bd_0_o_ram_awlen 1 2 5 1910J -450 NJ -450 4160 -370 N -370 5140
+preplace netloc intcon_wrapper_bd_0_o_ram_awsize 1 2 5 1970J -290 3000J -570 N -570 4820 -430 5330
+preplace netloc intcon_wrapper_bd_0_o_ram_arregion 1 2 5 2130J 2040 NJ 2040 N 2040 N 2040 5010
+preplace netloc intcon_wrapper_bd_0_o_ram_arqos 1 2 5 2300J 1570 3230J 1540 N 1540 4670 1000 N
+preplace netloc intcon_wrapper_bd_0_o_ram_awregion 1 2 5 2000J -340 2930J -640 N -640 N -640 5380
+preplace netloc intcon_wrapper_bd_0_o_ram_rready 1 2 5 2180J 1620 3580J 1550 N 1550 4760 1080 N
+preplace netloc intcon_wrapper_bd_0_wb_rom_adr_o 1 2 1 2140 1190n
+preplace netloc intcon_wrapper_bd_0_wb_rom_dat_o 1 2 1 2120 1210n
+preplace netloc intcon_wrapper_bd_0_wb_rom_sel_o 1 2 1 2110 1230n
+preplace netloc intcon_wrapper_bd_0_wb_rom_we_o 1 2 1 2100 1250n
+preplace netloc intcon_wrapper_bd_0_wb_rom_cyc_o 1 2 1 2090 1270n
+preplace netloc intcon_wrapper_bd_0_wb_rom_stb_o 1 2 1 2070 1290n
+preplace netloc bootrom_wrapper_0_o_wb_ack 1 1 3 1270 2480 NJ 2480 2930
+preplace netloc bootrom_wrapper_0_o_wb_rdt 1 1 3 1250 2490 NJ 2490 2920
+preplace netloc intcon_wrapper_bd_0_wb_sys_adr_o 1 2 1 2240 1400n
+preplace netloc intcon_wrapper_bd_0_wb_sys_dat_o 1 2 1 2260 1420n
+preplace netloc intcon_wrapper_bd_0_wb_sys_sel_o 1 2 1 2290 1440n
+preplace netloc intcon_wrapper_bd_0_wb_sys_we_o 1 2 1 2320 1460n
+preplace netloc intcon_wrapper_bd_0_wb_sys_cyc_o 1 2 1 2410 1480n
+preplace netloc intcon_wrapper_bd_0_wb_sys_stb_o 1 2 1 1900 1500n
+preplace netloc syscon_wrapper_0_o_wb_ack 1 1 3 1260 2510 NJ 2510 2940
+preplace netloc syscon_wrapper_0_o_wb_rdt 1 1 3 1240 2520 NJ 2520 2950
+preplace netloc i_ram_init_error_0_1 1 0 3 NJ 2340 460J 2470 2480J
+preplace netloc i_ram_init_done_0_1 1 0 3 30J 2130 560J 2270 2470J
+preplace netloc syscon_wrapper_0_Digits_Bits 1 3 4 3400 1580 N 1580 N 1580 5370
+preplace netloc syscon_wrapper_0_AN 1 3 4 3480 1570 N 1570 N 1570 5260
+preplace netloc intcon_wrapper_bd_0_wb_gpio_adr_o 1 2 1 2030 170n
+preplace netloc intcon_wrapper_bd_0_wb_gpio_cyc_o 1 2 1 2050 150n
+preplace netloc intcon_wrapper_bd_0_wb_gpio_dat_o 1 2 1 2040 190n
+preplace netloc intcon_wrapper_bd_0_wb_gpio_we_o 1 2 1 2080 230n
+preplace netloc intcon_wrapper_bd_0_wb_gpio_sel_o 1 2 1 2060 210n
+preplace netloc intcon_wrapper_bd_0_wb_gpio_stb_o 1 2 1 2340 250n
+preplace netloc gpio_wrapper_0_wb_ack_o 1 1 3 1290 2500 NJ 2500 2980
+preplace netloc gpio_wrapper_0_wb_dat_o 1 1 3 1300 2460 NJ 2460 2960
+preplace netloc gpio_wrapper_0_wb_err_o 1 1 3 1280 2530 NJ 2530 3000
+preplace netloc gpio_wrapper_0_wb_inta_o 1 2 2 2580 -230 2970
+preplace netloc syscon_wrapper_0_o_timer_irq 1 0 4 80 2560 NJ 2560 NJ 2560 3170
+preplace netloc syscon_wrapper_0_o_nmi_int 1 0 4 60 2540 NJ 2540 NJ 2540 2970
+preplace netloc syscon_wrapper_0_o_nmi_vec 1 0 4 70 2550 NJ 2550 NJ 2550 2990
+preplace netloc gpio_wrapper_0_oe_31 1 3 1 3580 1130n
+preplace netloc bidirec_31_outp 1 2 3 2610 1930 NJ 1930 3840
+preplace netloc gpio_wrapper_0_inp_31 1 3 1 3290 530n
+preplace netloc gpio_wrapper_0_oe_30 1 3 1 3050 1010n
+preplace netloc bidirec_30_outp 1 2 3 2570 1980 NJ 1980 3850
+preplace netloc gpio_wrapper_0_inp_30 1 3 1 3340 510n
+preplace netloc gpio_wrapper_0_oe_29 1 3 1 3570 890n
+preplace netloc bidirec_29_outp 1 2 3 2560 1970 NJ 1970 3860
+preplace netloc gpio_wrapper_0_inp_29 1 3 1 3350 490n
+preplace netloc gpio_wrapper_0_inp_28 1 3 1 3360 470n
+preplace netloc bidirec_28_outp 1 2 3 2570 -470 NJ -470 3850
+preplace netloc gpio_wrapper_0_oe_28 1 3 1 3560 770n
+preplace netloc gpio_wrapper_0_oe_27 1 3 1 3550 650n
+preplace netloc bidirec_27_outp 1 2 3 2560 -480 NJ -480 3860
+preplace netloc gpio_wrapper_0_inp_27 1 3 1 3380 450n
+preplace netloc gpio_wrapper_0_oe_26 1 3 1 3540 530n
+preplace netloc bidirec_26_outp 1 2 3 2550 -490 NJ -490 3880
+preplace netloc gpio_wrapper_0_inp_26 1 3 1 3390 430n
+preplace netloc gpio_wrapper_0_oe_25 1 3 1 3530 410n
+preplace netloc gpio_wrapper_0_inp_25 1 3 1 3410 410n
+preplace netloc bidirec_25_outp 1 2 3 2400 -560 NJ -560 3910
+preplace netloc gpio_wrapper_0_oe_24 1 3 1 3330 290n
+preplace netloc gpio_wrapper_0_inp_24 1 3 1 3450 310n
+preplace netloc bidirec_24_outp 1 2 3 2390 -630 NJ -630 3920
+preplace netloc gpio_wrapper_0_oe_23 1 3 1 2970 160n
+preplace netloc bidirec_23_outp 1 2 3 2600 -510 NJ -510 3840
+preplace netloc gpio_wrapper_0_inp_23 1 3 1 3430 180n
+preplace netloc gpio_wrapper_0_oe_22 1 3 2 3520 100 3980J
+preplace netloc bidirec_22_outp 1 2 4 2540 -650 NJ -650 NJ -650 4440
+preplace netloc gpio_wrapper_0_inp_22 1 3 2 3360 -10 4080J
+preplace netloc gpio_wrapper_0_oe_21 1 3 2 3510 90 4000J
+preplace netloc gpio_wrapper_0_inp_21 1 3 2 3350 -20 4110J
+preplace netloc bidirec_21_outp 1 2 4 2530 -660 NJ -660 NJ -660 4450
+preplace netloc gpio_wrapper_0_inp_20 1 3 2 3320 -30 4130J
+preplace netloc gpio_wrapper_0_oe_20 1 3 2 3500 80 4030J
+preplace netloc bidirec_20_outp 1 2 4 2380 -680 NJ -680 NJ -680 4470
+preplace netloc gpio_wrapper_0_oe_19 1 3 2 3490 40 NJ
+preplace netloc bidirec_19_outp 1 2 4 2370 -690 NJ -690 NJ -690 4500
+preplace netloc gpio_wrapper_0_inp_19 1 3 2 3310 -40 4180J
+preplace netloc gpio_wrapper_0_inp_18 1 3 2 3260 -60 NJ
+preplace netloc bidirec_18_outp 1 2 4 2360 -700 NJ -700 3910J -670 4430
+preplace netloc gpio_wrapper_0_inp_17 1 3 2 3100 -350 3890J
+preplace netloc bidirec_17_outp 1 2 4 2350 -710 NJ -710 NJ -710 4460
+preplace netloc gpio_wrapper_0_inp_16 1 3 1 3180 -190n
+preplace netloc bidirec_16_outp 1 2 3 2610 -670 NJ -670 3900
+preplace netloc gpio_wrapper_0_oe_18 1 3 2 3040 -80 NJ
+preplace netloc gpio_wrapper_0_oe_17 1 3 2 3370 -310 3870J
+preplace netloc gpio_wrapper_0_oe_16 1 3 1 3400 -210n
+preplace netloc gpio_wrapper_0_inp_3 1 3 3 3060 -520 NJ -520 4780J
+preplace netloc bidirec_3_outp 1 2 5 2430 -820 NJ -820 NJ -820 NJ -820 5050
+preplace netloc gpio_wrapper_0_oe_3 1 3 3 3150 -430 NJ -430 4770J
+preplace netloc gpio_wrapper_0_oe_6 1 3 3 3300 -270 NJ -270 4670J
+preplace netloc bidirec_6_outp 1 2 5 2460 -780 NJ -780 NJ -780 NJ -780 5030
+preplace netloc gpio_wrapper_0_inp_6 1 3 3 3010 -620 NJ -620 4810J
+preplace netloc gpio_wrapper_0_oe_7 1 3 3 3250 -360 NJ -360 4530J
+preplace netloc gpio_wrapper_0_inp_7 1 3 3 3020 -610 NJ -610 4790J
+preplace netloc bidirec_7_outp 1 2 5 2470 -770 NJ -770 NJ -770 NJ -770 5020
+preplace netloc gpio_wrapper_0_oe_9 1 3 3 3270 -330 NJ -330 4490J
+preplace netloc gpio_wrapper_0_inp_9 1 3 3 3140 -120 4100J -510 4750J
+preplace netloc bidirec_9_outp 1 2 5 2490 -750 NJ -750 NJ -750 NJ -750 5010
+preplace netloc gpio_wrapper_0_oe_5 1 3 3 3280 -280 NJ -280 4590J
+preplace netloc gpio_wrapper_0_inp_5 1 3 3 3070 -530 NJ -530 4760J
+preplace netloc bidirec_5_outp 1 2 5 2450 -790 NJ -790 NJ -790 NJ -790 5070
+preplace netloc gpio_wrapper_0_oe_10 1 3 2 3420J 0 4060
+preplace netloc bidirec_10_outp 1 2 4 2500 -740 NJ -740 NJ -740 4540
+preplace netloc gpio_wrapper_0_inp_10 1 3 2 3330J 70 3990
+preplace netloc gpio_wrapper_0_oe_8 1 3 3 3220J -400 3970J -390 4480
+preplace netloc bidirec_8_outp 1 2 5 2480 -760 NJ -760 NJ -760 NJ -760 5040
+preplace netloc gpio_wrapper_0_inp_8 1 3 3 3110J -130 4110J -470 4690
+preplace netloc gpio_wrapper_0_oe_11 1 3 2 3440J 10 4010
+preplace netloc bidirec_11_outp 1 2 4 2510 -730 NJ -730 NJ -730 4520
+preplace netloc gpio_wrapper_0_inp_11 1 3 2 3210J -50 4090
+preplace netloc gpio_wrapper_0_oe_1 1 3 3 3120J -460 3970J -490 4720
+preplace netloc gpio_wrapper_0_inp_1 1 3 3 3080J -300 NJ -300 4550
+preplace netloc bidirec_1_outp 1 2 5 2410 -840 NJ -840 NJ -840 NJ -840 5090
+preplace netloc gpio_wrapper_0_oe_15 1 3 2 3480J 60 3960
+preplace netloc bidirec_15_outp 1 2 4 2520 -720 NJ -720 NJ -720 4510
+preplace netloc gpio_wrapper_0_inp_15 1 3 2 3200J -90 4100
+preplace netloc gpio_wrapper_0_oe_14 1 3 2 3460J 30 3970
+preplace netloc gpio_wrapper_0_inp_14 1 3 2 3240J -70 4040
+preplace netloc bidirec_14_outp 1 2 4 2510 1960 NJ 1960 NJ 1960 4450
+preplace netloc gpio_wrapper_0_inp_13 1 3 2 3190J -100 4050
+preplace netloc gpio_wrapper_0_oe_13 1 3 2 3470J 50 3940
+preplace netloc bidirec_13_outp 1 2 4 2500 1950 NJ 1950 NJ 1950 4440
+preplace netloc gpio_wrapper_0_oe_12 1 3 2 3090J 20 3950
+preplace netloc gpio_wrapper_0_inp_12 1 3 2 3160J -110 4020
+preplace netloc bidirec_12_outp 1 2 4 2490 1940 NJ 1940 NJ 1940 4430
+preplace netloc bidirec_4_outp 1 2 5 2440 -810 NJ -810 NJ -810 NJ -810 5080
+preplace netloc bidirec_0_outp 1 2 5 2590 1630 NJ 1630 NJ 1630 NJ 1630 5010
+preplace netloc bidirec_2_outp 1 2 5 2420 -830 NJ -830 NJ -830 NJ -830 5060
+preplace netloc gpio_wrapper_0_inp_2 1 3 3 3090J -290 NJ -290 4660
+preplace netloc gpio_wrapper_0_oe_2 1 3 3 3170J -390 3940J -260 4710
+preplace netloc gpio_wrapper_0_inp_0 1 3 3 3040J -500 NJ -500 4650
+preplace netloc gpio_wrapper_0_inp_4 1 3 3 3050J -540 NJ -540 4730
+preplace netloc gpio_wrapper_0_oe_4 1 3 3 3230J -340 NJ -340 4560
+preplace netloc gpio_wrapper_0_oe_0 1 3 3 3130J -420 NJ -420 4600
+preplace netloc bidirec_0_bidir 1 6 1 5110 920n
+preplace netloc bidirec_1_bidir 1 6 1 5170 670n
+preplace netloc bidirec_2_bidir 1 6 1 5130 -240n
+preplace netloc bidirec_3_bidir 1 6 1 5210 -50n
+preplace netloc bidirec_4_bidir 1 6 1 5130 790n
+preplace netloc bidirec_5_bidir 1 6 1 5170 390n
+preplace netloc bidirec_6_bidir 1 6 1 5190 70n
+preplace netloc bidirec_7_bidir 1 6 1 5130 150n
+preplace netloc bidirec_8_bidir 1 6 1 5190 520n
+preplace netloc bidirec_9_bidir 1 6 1 5150 270n
+preplace netloc bidirec_10_bidir 1 5 2 4680J -300 5320J
+preplace netloc bidirec_11_bidir 1 5 2 4700J -290 5280J
+preplace netloc bidirec_12_bidir 1 5 2 4620J 1120 NJ
+preplace netloc bidirec_13_bidir 1 5 2 NJ 1020 5190J
+preplace netloc bidirec_14_bidir 1 5 2 4500J 980 5210J
+preplace netloc bidirec_15_bidir 1 5 2 4740J -130 NJ
+preplace netloc bidirec_16_bidir 1 4 3 3950J -700 NJ -700 5410J
+preplace netloc bidirec_17_bidir 1 5 2 4620J -280 5260J
+preplace netloc bidirec_18_bidir 1 5 2 4640J -140 5240J
+preplace netloc bidirec_19_bidir 1 5 2 4580J -340 5290J
+preplace netloc bidirec_20_bidir 1 5 2 4570J -400 5400J
+preplace netloc bidirec_21_bidir 1 5 2 4630J -330 NJ
+preplace netloc bidirec_22_bidir 1 5 2 4610J -360 NJ
+preplace netloc bidirec_23_bidir 1 4 3 4070J -560 NJ -560 5390J
+preplace netloc bidirec_24_bidir 1 4 3 4120J -460 NJ -460 5370J
+preplace netloc bidirec_25_bidir 1 4 3 4170J -450 NJ -450 5360J
+preplace netloc bidirec_26_bidir 1 4 3 4190J -440 NJ -440 5340J
+preplace netloc bidirec_27_bidir 1 4 3 4140J -480 4800J -420 5300J
+preplace netloc bidirec_28_bidir 1 4 3 4200J -400 4530J -390 5220J
+preplace netloc bidirec_29_bidir 1 4 3 3900J 1220 4540J 990 5200J
+preplace netloc bidirec_30_bidir 1 4 3 3910J 1200 4580J 1030 NJ
+preplace netloc bidirec_31_bidir 1 4 3 3880J 1210 4730J 1150 NJ
+levelinfo -pg 1 -20 270 1530 2770 3750 4340 4920 6530
+pagesize -pg 1 -db -bbox -sgen -220 -1800 6730 3530
+"
+}
+
