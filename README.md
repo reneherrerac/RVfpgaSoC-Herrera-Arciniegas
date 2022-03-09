@@ -99,11 +99,11 @@ main:
 # Register t3 is also called register 28 (x28)
 li t3, 0x0				 	      # t3 = 0              # 0x00000E13
 REPEAT:      
-	addi t3, t3, 6		 	       # t3 = t3 + 6         # 0x006E0E13
-	addi t3, t3, -1		           # t3 = t3 - 1         # 0xFFFE0E13
-	andi t3, t3, 3			       # t3 = t3 AND 3       # 0x003E7E13
-	beq  zero, zero, REPEAT        # Repeat the loop     # 0xFE000CE3
-    nop                            #nop                  # 0x00000013
+	addi t3, t3, 6		 	              # t3 = t3 + 6         # 0x006E0E13
+	addi t3, t3, -1		                      # t3 = t3 - 1         # 0xFFFE0E13
+	andi t3, t3, 3			              # t3 = t3 AND 3       # 0x003E7E13
+	beq  zero, zero, REPEAT                       # Repeat the loop     # 0xFE000CE3
+    nop                                               #nop                  # 0x00000013
 .end
 ```
 ![gtk20.jpeg](https://www.dropbox.com/s/xoz0jecglj20ju1/gtk20.jpeg?dl=0&raw=1)
