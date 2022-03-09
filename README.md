@@ -84,9 +84,9 @@ Consiste en un curso libre para que las personas puedan aprender sobre cómo cre
 - ## Resultados lab1
 Se creó un proyecto en vivado para realizar el diagrama de bloques, Se configuró el proyecto, se cargaron los bloques pre establecidos y se inician las conexiones
 - ## Bloques entregados
-![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
+![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)
 ![intercon.jpeg](https://www.dropbox.com/s/6xanwkspfbuxhdo/intercon.jpeg?dl=0&raw=1)![SYSCON.jpeg](https://www.dropbox.com/s/q7vzgf8fvfd9mh8/SYSCON.jpeg?dl=0&raw=1)
-![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)
+![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
 - ## Conexion de los bloques
 Se realizaron las respectivas conexiones internas entre bloques, la cpu con el bloque de interconexiones y sus demás eprifericos, como la memoria ROM o la GPU. El diagrama resultante fue el siguiente
 ![bloques.jpeg](https://www.dropbox.com/s/i2vxeolpbcs4fs5/bloques.jpeg?dl=0&raw=1)
