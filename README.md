@@ -72,6 +72,8 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
 
 - Descripcion del curso RVfpgaSoC
   - Resumen del curso
+Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
+  - Empresas patrocinadoras
   - Empresas patrocinadoras
 
   - Lab1 descripcion general
