@@ -87,23 +87,43 @@ Se creó un proyecto en vivado para realizar el diagrama de bloques, Se configur
 ![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![SYSCON.jpeg](https://www.dropbox.com/s/q7vzgf8fvfd9mh8/SYSCON.jpeg?dl=0&raw=1)
 ![intercon.jpeg](https://www.dropbox.com/s/6xanwkspfbuxhdo/intercon.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
 ![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)
-## Conexion de los bloques
+- ## Conexion de los bloques
 Se realizaron las respectivas conexiones internas entre bloques, la cpu con el bloque de interconexiones y sus demás eprifericos, como la memoria ROM o la GPU. El diagrama resultante fue el siguiente
 ![bloques.jpeg](https://www.dropbox.com/s/i2vxeolpbcs4fs5/bloques.jpeg?dl=0&raw=1)
+- ## Generación del Bitstream y del archivo verilog DB.v que representa los bloques 
+![bitstream.jpeg](https://www.dropbox.com/s/wfmafw1f8lxip3m/bitstream.jpeg?dl=0&raw=1)
+## Lab2 descripcion general
+Este laboratorio muestra cómo ejecutar programas escritos en lenguaje _Assembly_ o _C_ en el subconjunto _SweRVolfX_ que creamos en el laboratorio 1 usando la herramienta de diseño Vivado Block. Posteriormente de haber cargado el programa se simula en verilator y se observa en GTKWAVE el comportamiento.
+- ## Resultados lab2
+El diseño de bloques creado en el lab1 genera un archivo Verilog de ese módulo de diseño de bloques como un todo. (BD.v)
+- ## Simulando un programa en Verilator
+Para la simulación se cargaron instrucciones en assembly y se simula en verilator, al conluir la simulación genera un archivo  _trace.vcd_
 
-
-- lab2 descripcion general
-    - resultados lab2
-
-- Conclusiones
+ ```
+ .globl main
+main:
+# Register t3 is also called register 28 (x28)
+li t3, 0x0				 	      # t3 = 0              # 0x00000E13
+REPEAT:      
+	addi t3, t3, 6		 	       # t3 = t3 + 6         # 0x006E0E13
+	addi t3, t3, -1		           # t3 = t3 - 1         # 0xFFFE0E13
+	andi t3, t3, 3			       # t3 = t3 AND 3       # 0x003E7E13
+	beq  zero, zero, REPEAT        # Repeat the loop     # 0xFE000CE3
+    nop                            #nop                  # 0x00000013
+.end
+```
+![gtk20.jpeg](https://www.dropbox.com/s/xoz0jecglj20ju1/gtk20.jpeg?dl=0&raw=1)
+En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y en el registro t3 a la salida el cambio esperado
+## Conclusiones
   - Importancia del curso
   - Que aprendí del curso
 
 -  Referencias
-  - Empresas patrocinadoras del curso 
- ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
+
 
 ## Referencias
+  - Empresas patrocinadoras del curso 
+ ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
 
   - [1] RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
   - https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
