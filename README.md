@@ -61,16 +61,16 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
 
 - ## patrocinadores
  Miembros principales:
-    - Alibaba Cloud
-    - Andes Tecnology Founding
-    - Chengwey Capital
-    - Futurewei Technologies
-    - Google Founding
-    - Huawei
-    - ICT Founding
-    - ISCAS
-    - INTEL
-    - RIOS
+ - Alibaba Cloud
+ - Andes Tecnology Founding
+ - Chengwey Capital
+ - Futurewei Technologies
+ - Google Founding
+ - Huawei
+ - ICT Founding
+ - ISCAS
+ - INTEL
+ - RIOS
 
 ## Descripcion del curso RVfpgaSoC
 Consiste en un curso libre para que las personas puedan aprender sobre cómo crear un SoC a partir de un núcleo y otros componentes básicos, y ejecutar programas en el SoC. Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
