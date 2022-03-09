@@ -127,6 +127,7 @@ En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y 
   - Permite fomentar el interés del publico en esta rama de la ingeniería. 
   - Del curso se puede aprender como trabajan y se comunican conjuntamente varios modulos en un SoC
   - Se logró usar verilator para simular el procedimiento de carga de instrucciones, en caso de no tener disponible una FPGA.
+  - Con el apoyo que ha recibido la fundacion RIS-V se espera que genere grandes avances hasta el punto de compitir directamente con las arquitecturas que hoy dominan el mercado
 
 ## Referencias
   - Empresas patrocinadoras del curso 
