@@ -59,9 +59,18 @@ El proyecto de 5 años Par Lab pagado por Intel y Microsoft  y lederado por el P
 La Fundación RISC-V  nace en el año 2015 para construir una comunidad abierta y colaborativa de innovadores de software y hardware basada en RISC-V ISA. La Fundación, una corporación sin fines de lucro controlada por sus miembros, dirigió el desarrollo para impulsar la adopción inicial de RISC-V ISA.
 en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobierno de Donal Trump influyera en el acceso libre y el desarrollo de la fundacion.[2]
 
-  - patrocinadores
-  - Intel invirtio en ris-v
-  - Hardware libre ?
+- ## patrocinadores
+ Miembros principales:
+    - Alibaba Cloud
+    - Andes Tecnology Founding
+    - Chengwey Capital
+    - Futurewei Technologies
+    - Google Founding
+    - Huawei
+    - ICT Founding
+    - ISCAS
+    - INTEL
+    - RIOS
 
 ## Descripcion del curso RVfpgaSoC
 Consiste en un curso libre para que las personas puedan aprender sobre cómo crear un SoC a partir de un núcleo y otros componentes básicos, y ejecutar programas en el SoC. Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
