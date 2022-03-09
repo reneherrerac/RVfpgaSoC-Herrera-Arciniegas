@@ -102,7 +102,7 @@ REPEAT:
 	addi t3, t3, 6		 	              # t3 = t3 + 6         # 0x006E0E13
 	addi t3, t3, -1		                      # t3 = t3 - 1         # 0xFFFE0E13
 	andi t3, t3, 3			              # t3 = t3 AND 3       # 0x003E7E13
-	beq  zero, zero, REPEAT                         # Repeat the loop     # 0xFE000CE3
+	beq  zero, zero, REPEAT                           # Repeat the loop     # 0xFE000CE3
     nop                                               #nop                  # 0x00000013
 .end
 ```
