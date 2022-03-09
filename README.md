@@ -12,28 +12,19 @@ Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empre
 
 Temas a tratar:
 - [Introducción.](#Introducción)
-    - Software libre.
-    -  Beneficios del software libre.
-- Fundación RISC-V.
-  - Patrocinadores.
-  - Intel invirtio en ris-v.
-- Hardware libre.
-
-- Descripción del curso RVfpgaSoC.
-- Resumen del curso.
-- Empresas patrocinadoras.
-
-- Lab1 descripción general.
-  - Resultados lab1.
-
-- Lab2 descripción general.
-  - Resultados lab2.
-
-- Conclusiones.
-- Importancia del curso.
-- Que aprendí del curso.
-
--  Referencias.
+  - [Software libre.](#Softwarelibre)
+  -  [Beneficios del software libre.](#Beneficiosdelsoftwarelibre)
+  - [Hardware libre.](#Hardwarelibre)
+  - [Fundación RISC-V.](#FundaciónRISC-V)
+  - [Patrocinadores.]()
+  - [Intel invirtio en ris-v.]()
+- [Descripción del curso RVfpgaSoC.](#DescripciondelcursoRVfpgaSoC)
+  - [Lab1 Descripción general.](#Lab1descripciongeneral)
+  - [Resultados lab1.](#Resultadoslab1)
+  - [Lab2 Descripción general.](#Lab2descripciongeneral)
+  - [Resultados lab2.](#Resultadoslab2)
+- [Conclusiones.](#Conclusiones)
+-  [Referencias.](#Referencias)
 
 
 ## Introducción
@@ -84,9 +75,10 @@ Consiste en un curso libre para que las personas puedan aprender sobre cómo cre
 - ## Resultados lab1
 Se creó un proyecto en vivado para realizar el diagrama de bloques, Se configuró el proyecto, se cargaron los bloques pre establecidos y se inician las conexiones
 - ## Bloques entregados
-![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)
-![intercon.jpeg](https://www.dropbox.com/s/6xanwkspfbuxhdo/intercon.jpeg?dl=0&raw=1)![SYSCON.jpeg](https://www.dropbox.com/s/q7vzgf8fvfd9mh8/SYSCON.jpeg?dl=0&raw=1)
-![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
+
+![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![SYSCON.jpeg](https://www.dropbox.com/s/q7vzgf8fvfd9mh8/SYSCON.jpeg?dl=0&raw=1)
+![intercon.jpeg](https://www.dropbox.com/s/6xanwkspfbuxhdo/intercon.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
+![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)
 - ## Conexion de los bloques
 Se realizaron las respectivas conexiones internas entre bloques, la cpu con el bloque de interconexiones y sus demás eprifericos, como la memoria ROM o la GPU. El diagrama resultante fue el siguiente
 ![bloques.jpeg](https://www.dropbox.com/s/i2vxeolpbcs4fs5/bloques.jpeg?dl=0&raw=1)
