@@ -10,7 +10,7 @@ En este proyecto encontrara la implementación de
 Lab 1: Introduction to RVfpga-SoC
 Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empresa imagination.
 
-Temas a tratar:
+Contenido:
 - [Introducción.](#Introducción)
   - [Software libre.](#Software-libre)
   -  [Beneficios del software libre.](#Beneficios-del-software-libre)
