@@ -112,9 +112,6 @@ En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y 
   - Importancia del curso
   - Que aprendí del curso
 
--  Referencias
-
-
 ## Referencias
   - Empresas patrocinadoras del curso 
  ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
