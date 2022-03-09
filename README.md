@@ -109,8 +109,10 @@ REPEAT:
 ![gtk20.jpeg](https://www.dropbox.com/s/xoz0jecglj20ju1/gtk20.jpeg?dl=0&raw=1)
 En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y en el registro t3 a la salida el cambio esperado
 ## Conclusiones
-  - Importancia del curso
-  - Que aprendí del curso
+  - Este tipo de cursos libres permiten al publico poder conocer lo que tienen para ofrecer las empresas. 
+  - Permite fomentar el interés del publico en esta rama de la ingeniería 
+  - Del curso se puede aprender como trabajan y se comunican conjuntamente varios modulos en un SoC
+  - 
 
 ## Referencias
   - Empresas patrocinadoras del curso 
