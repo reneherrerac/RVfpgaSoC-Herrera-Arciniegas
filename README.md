@@ -11,9 +11,9 @@ Lab 1: Introduction to RVfpga-SoC
 Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empresa imagination.
 
 Temas a tratar:
-- Introducción.
+- [Introducción.](#Introducción)
     - Software libre.
-      - Beneficios del software libre.
+    -  Beneficios del software libre.
 - Fundación RISC-V.
   - Patrocinadores.
   - Intel invirtio en ris-v.
@@ -70,16 +70,29 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
   - Intel invirtio en ris-v
   - Hardware libre ?
 
-- Descripcion del curso RVfpgaSoC
-  - Resumen del curso
-Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
-  - Empresas patrocinadoras
-  - Empresas patrocinadoras
+## Descripcion del curso RVfpgaSoC
+Consiste en un curso libre para que las personas puedan aprender sobre cómo crear un SoC a partir de un núcleo y otros componentes básicos, y ejecutar programas en el SoC. Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
 
-  - Lab1 descripcion general
-    - resultados lab1
+  ## Lab1 descripcion general
+  En esta práctica de laboratorio, mostraremos cómo construir un sistema RISC-V en un chip (SoC) a partir de bloques de construcción. Un SoC incluye un núcleo y todos los periféricos e interfaces necesarios para cargar un sistema operativo y ejecutar programas.
+  
+#### Los módulos que se usaron se pueden clasificar en tres grandes bloques o categorías:
+1. CPU (_SweRV EH1 Core Complex_)
+2. Interconexión (_AXI-Interconnect, AXI2WB, and WB-Interconnect_)
+3. Periféricos (_Boot-ROM, GPIO controller, and System controller_)
+![DIAGRAMA12.jpeg](https://www.dropbox.com/s/4ubs117almsvnpv/DIAGRAMA12.jpeg?dl=0&raw=1)
+- ## Resultados lab1
+Se creó un proyecto en vivado para realizar el diagrama de bloques, Se configuró el proyecto, se cargaron los bloques pre establecidos y se inician las conexiones
+- ## Bloques entregados
+![swerv wrapper.jpeg](https://www.dropbox.com/s/ablzw1h4iir0fio/swerv%20wrapper.jpeg?dl=0&raw=1)![SYSCON.jpeg](https://www.dropbox.com/s/q7vzgf8fvfd9mh8/SYSCON.jpeg?dl=0&raw=1)
+![intercon.jpeg](https://www.dropbox.com/s/6xanwkspfbuxhdo/intercon.jpeg?dl=0&raw=1)![GPU.jpeg](https://www.dropbox.com/s/k7u1pk6ekxfyqpb/GPU.jpeg?dl=0&raw=1)
+![ROM.jpeg](https://www.dropbox.com/s/anhyu4n25co2xu7/ROM.jpeg?dl=0&raw=1)![BIDIRECT.jpeg](https://www.dropbox.com/s/58yw6q76ht9dixb/BIDIRECT.jpeg?dl=0&raw=1)
+## Conexion de los bloques
+Se realizaron las respectivas conexiones internas entre bloques, la cpu con el bloque de interconexiones y sus demás eprifericos, como la memoria ROM o la GPU. El diagrama resultante fue el siguiente
+![bloques.jpeg](https://www.dropbox.com/s/i2vxeolpbcs4fs5/bloques.jpeg?dl=0&raw=1)
 
-  - lab2 descripcion general
+
+- lab2 descripcion general
     - resultados lab2
 
 - Conclusiones
@@ -87,7 +100,10 @@ Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando lo
   - Que aprendí del curso
 
 -  Referencias
+  - Empresas patrocinadoras del curso 
+ ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
 
 ## Referencias
 
   - [1] RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
+  - https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
