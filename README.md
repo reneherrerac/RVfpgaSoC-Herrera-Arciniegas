@@ -75,7 +75,7 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
 Consiste en un curso libre para que las personas puedan aprender sobre cómo crear un SoC a partir de un núcleo y otros componentes básicos, y ejecutar programas en el SoC. Este curso RVfpga-SoC muestra cómo construir un SoC RISC-V desde cero usando los bloques de construcción proporcionados y un enfoque de diseño visual basado en bloques. Los componentes básicos incluyen el núcleo de la CPU SweRV EH 1, el bloque de interconexiones, la ROM de arranque, el controlador del sistema y el controlador GPIO. estos se deberán enlazar y poner en funcionamiento para que corra instrucciones en assembly o en C
 
   ## Lab1 descripcion general
-  En esta práctica de laboratorio, mostraremos cómo construir un sistema RISC-V en un chip (SoC) a partir de bloques de construcción. Un SoC incluye un núcleo y todos los periféricos e interfaces necesarios para cargar un sistema operativo y ejecutar programas.
+  En esta práctica de laboratorio, se muestra cómo construir un sistema RISC-V en un chip (SoC) a partir de bloques de construcción. Un SoC incluye un núcleo y todos los periféricos e interfaces necesarios para cargar un sistema operativo y ejecutar programas.
   
 #### Los módulos que se usaron se pueden clasificar en tres grandes bloques o categorías:
 1. CPU (_SweRV EH1 Core Complex_)
