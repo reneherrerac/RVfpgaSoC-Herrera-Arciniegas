@@ -16,8 +16,7 @@ Contenido:
   -  [Beneficios del software libre.](#Beneficios-del-software-libre)
   - [Hardware libre.](#Hardware-libre)
   - [Fundación RISC-V.](#Fundación-RISC-V)
-  - [Patrocinadores.]()
-  - [Intel invirtio en ris-v.]()
+  - [Patrocinadores.](#Patrocinadores)
 - [Descripción del curso RVfpgaSoC.](#Descripcion-del-curso-RVfpgaSoC)
   - [Lab1 Descripción general.](#Lab1-descripcion-general)
   - [Resultados lab1.](#Resultados-lab1)
@@ -59,7 +58,7 @@ El proyecto de 5 años Par Lab pagado por Intel y Microsoft  y lederado por el P
 La Fundación RISC-V  nace en el año 2015 para construir una comunidad abierta y colaborativa de innovadores de software y hardware basada en RISC-V ISA. La Fundación, una corporación sin fines de lucro controlada por sus miembros, dirigió el desarrollo para impulsar la adopción inicial de RISC-V ISA.
 en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobierno de Donal Trump influyera en el acceso libre y el desarrollo de la fundacion.[2]
 
-- ## patrocinadores
+## Patrocinadores
  Miembros principales:
  - Alibaba Cloud
  - Andes Tecnology Founding
