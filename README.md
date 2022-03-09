@@ -37,7 +37,7 @@ Temas a tratar:
 
 
 ## Introducción
-Para la época de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto del software libre, al punto que hoy en día, mas del 90% de las supercomputadoras del mundo corren sobre un núcleo linux, el cual tiene una licencia GPL.  [{1}](https://www.compuhoy.com/cuantos-servidores-usan-linux/).  
+Para la época de los 80, Richard Matthew Stallman no imaginaba que revolucionaria el mundo con el concepto del software libre, al punto que hoy en día, mas del 90% de las supercomputadoras del mundo corren sobre un núcleo linux, el cual tiene una licencia GPL.  [1]  
 ## Software libre
 Hoy en día se distribuye software bajo diferentes licencias siendo la mas comunes, MIT, GPL y APACHE.
 De acuerdo con la definición establecida por Richard Stallman, un software es "libre" cuando garantiza las siguientes libertades:
@@ -88,4 +88,4 @@ en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobi
 
 ## Referencias
 
-  - {1} RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
+  - [1] RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
