@@ -116,6 +116,6 @@ En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y 
   - Empresas patrocinadoras del curso 
  ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
 
-  - [1] RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
+  - [1] https://www.compuhoy.com/cuantos-servidores-usan-linux/
   - [2] [Fundacion RISC-V](https://riscv.org/about/history/)
   - [3] https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
