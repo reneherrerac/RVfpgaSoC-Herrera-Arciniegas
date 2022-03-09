@@ -12,7 +12,7 @@ Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empre
 
 Temas a tratar:
 - [Introducción.](#Introducción)
-  - [Software libre.](#Software_libre)
+  - [Software libre.](#Software libre)
   -  [Beneficios del software libre.](#Beneficiosdelsoftwarelibre)
   - [Hardware libre.](#Hardwarelibre)
   - [Fundación RISC-V.](#FundaciónRISC-V)
