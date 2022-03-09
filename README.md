@@ -50,12 +50,12 @@ Una parte muy importante para el diseño de software es el set de intrucciones I
 - RISC (Reduced Instruction Set Computer)
 - SISC (Simple Instruction Set Computing)
 
-Las arquitecturas comerciales mas comunes como x86 de INTEL y ARM de ARM holdings son privativas por lo que la aparición de el set de instrucciones RIS-V en el 2010 en la universidad de Berkeley  abre el horizonte para una colaboración global para lograr un software y hardware libre y abierto y a un avance mas rápido en la generación de nuevas tegnologias.
-El proyecto de 5 años Par Lab pagado por Intel y Microsoft  y lederado por el Prof. David Pattersondonde se buscaba avances en la computacion paralela termino creando RIS-V.
+Las arquitecturas comerciales mas comunes como x86 de INTEL y ARM de ARM holdings son privativas por lo que la aparición de el set de instrucciones RISC-V en el 2010 en la universidad de Berkeley  abre el horizonte para una colaboración global para lograr un software y hardware libre y abierto y a un avance mas rápido en la generación de nuevas tegnologias.
+El proyecto de 5 años Par Lab pagado por Intel y Microsoft  y lederado por el Prof. David Pattersondonde se buscaba avances en la computacion paralela termino creando RISC-V.
 
 ## Fundación RISC-V
-La Fundación RISC-V ( www.riscv.org ) nace en el año 2015 para construir una comunidad abierta y colaborativa de innovadores de software y hardware basada en RISC-V ISA. La Fundación, una corporación sin fines de lucro controlada por sus miembros, dirigió el desarrollo para impulsar la adopción inicial de RISC-V ISA.
-en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobierno de Donal Trump influyera en el acceso libre y el desarrollo de la fundacion.
+La Fundación RISC-V  nace en el año 2015 para construir una comunidad abierta y colaborativa de innovadores de software y hardware basada en RISC-V ISA. La Fundación, una corporación sin fines de lucro controlada por sus miembros, dirigió el desarrollo para impulsar la adopción inicial de RISC-V ISA.
+en marzo de 2020 Su cede paso de estados unidos  a suiza para evitar que el gobierno de Donal Trump influyera en el acceso libre y el desarrollo de la fundacion.[2]
 
   - patrocinadores
   - Intel invirtio en ris-v
@@ -117,4 +117,5 @@ En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y 
  ![patrocinadore.jpeg](https://www.dropbox.com/s/d987gxnnl83f5rt/patrocinadore.jpeg?dl=0&raw=1)
 
   - [1] RISC-V Assembly for Beginners  [Link](https://www.compuhoy.com/cuantos-servidores-usan-linux/)
+  - [2] [Fundacion RISC-V]( www.riscv.org )
   - https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/
