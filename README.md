@@ -8,7 +8,7 @@ _Brayan Herrera_
 
 En este proyecto encontrara la implementación de
 Lab 1: Introduction to RVfpga-SoC
-Lab 2: Running Software on RVfpga-SoC  del curso RVfpgaSoC ofrecido por la empresa imagination.
+Lab 2: _Running Software on RVfpga-SoC_  del curso RVfpgaSoC ofrecido por la empresa Imagination.
 
 Contenido:
 - [Introducción.](#Introducción)
@@ -110,9 +110,9 @@ REPEAT:
 En GTKWAVE se puede observar como son ejecutadas las instrucciones ingresadas y en el registro t3 a la salida el cambio esperado
 ## Conclusiones
   - Este tipo de cursos libres permiten al publico poder conocer lo que tienen para ofrecer las empresas. 
-  - Permite fomentar el interés del publico en esta rama de la ingeniería 
+  - Permite fomentar el interés del publico en esta rama de la ingeniería. 
   - Del curso se puede aprender como trabajan y se comunican conjuntamente varios modulos en un SoC
-  - 
+  - Se logró usar verilator para simular el procedimiento de carga de instrucciones, en caso de no tener disponible una FPGA.
 
 ## Referencias
   - Empresas patrocinadoras del curso 
